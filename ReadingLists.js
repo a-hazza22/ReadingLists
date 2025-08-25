@@ -16,4 +16,7 @@ const goodreadsInfo = {
     },
   ],
 };
-
+// دالة لإضافة كتب جديدة
+const addNewBook = (books, ...additionalBookObjects) => {
+  return [...books, ...additionalBookObjects];
+};
